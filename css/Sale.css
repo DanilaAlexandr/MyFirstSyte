@@ -51,8 +51,15 @@ section{
 
 
 
+section#ImgShop img{
+	width:400px; 
+	height:300px;
 
 
+}
+section#Menu-Left table{
+	width: 200px;
+}
 
 
 
@@ -67,6 +74,7 @@ section#Menu-Left{
 	margin: 0;
 	height: 1100px;
 	color: #161515cf;
+	z-index: -1;
 }
 section#Menu-Left a{
 	list-style: none;
@@ -212,10 +220,10 @@ div.CloroCircle{
 
 
 
-section#ImgShop{
+div.ImgShop{
 	position: relative;
 	left: 245px;
-	top: 0px;
+	top: -1100px;
 	margin: auto 0px;
 	width: 950px;
 	height: 1300px;
@@ -333,6 +341,7 @@ footer div.TwoColomTwo{
 footer{
 	position: relative;
 	display: grid;
+	top: 200px;
 	width: 1152px;
 	height: 325px;
 	background: #F0F0F0;
