@@ -39,21 +39,6 @@ header nav ul li a{
 	top: 30px;
 	left: 60px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 form {
   width: auto;
   float: right;
@@ -101,199 +86,141 @@ section#SearchHelp h1{
 	top: 30px;
 	left: 0px;
 }
-
-
-
-
-
-
-
-
 section#ContactsAdressNomer{
 	position: relative;
 	display: grid;
 	width: 1152px;
 	height: 800px;
 	margin: 0 auto;
+	font-family: Monda;
+	color: #000000;
+	white-space: pre;
+	font-weight: normal;
 }
 .contact{
-border: 1px solid rgba(0, 0, 0, 0.09);
-box-sizing: border-box;
+	border: 1px solid rgba(0, 0, 0, 0.09);
+	box-sizing: border-box;
 }
-#products{
+#PRODUCTS{
 	position: absolute;
 	left:100px;
 	top: 80px;
-	white-space: pre;
-	font-family: Monda;
-	font-style: normal;
-	font-weight: normal;
 	font-size: 24px;
 	line-height: 39px;
 	text-align: center;
-	color: #000000;
+	
 }
-section#ContactsAdressNomer .fotocontact1{
+section#ContactsAdressNomer .CallEmblem1{
 	position: absolute;
 	top: 50px;
 	left: 100px;
 }
-section#ContactsAdressNomer .fotocontact2{
+section#ContactsAdressNomer .CallEmblem2{
 	position: absolute;
 	top: 50px;
 	left: 530px;
 }
-
-section#ContactsAdressNomer div#nomer{
-	display: grid;
-	grid-template-columns: repeat(1, 1fr);
-	align-sel
-}
-
-#nrc{
+#NRC{
 	position: absolute;
 	left: 0px;
 	top: 80px;
-	white-space: pre;
-	font-family: Monda;
-	font-style: normal;
-	font-weight: normal;
 	font-size: 24px;
 	line-height: 39px;
 	text-align: center;
-	color: #000000;
+
 	width: 100%;
 
 }
-section#ContactsAdressNomer .fotocontact3{
+section#ContactsAdressNomer .CallEmblem3{
 	position: absolute;
 	top: 50px;
 	left: 130px;
 }
-#info{
+#CompanyInfo{
 	position: absolute;
 	left: 740px;
 	top: 80px;
-	white-space: pre;	
-	font-family: Monda;
-	font-style: normal;
-	font-weight: normal;
 	font-size: 24px;
 	line-height: 39px;
 	text-align: center;
-	color: #000000;
 
 
 }
-section#ContactsAdressNomer .fotocontact4{
+section#ContactsAdressNomer .SmsImg{
 	position: absolute;
 	top: 50px;
 	left: 90px;
 }
-#orders{
+#ProductsOrders{
 	position: absolute;
 	left: 100px;
 	top: 410px;
-	white-space: pre;
-	font-family: Monda;
-	font-style: normal;
-	font-weight: normal;
 	font-size: 24px;
 	line-height: 39px;
 	text-align: center;
-	color: #000000;
+
 
 }
-section#ContactsAdressNomer .fotocontact5{
+section#ContactsAdressNomer .NavigatorImg{
 position: absolute;
 top: 25px;
 left:130px;
 }
-#locator{
+#StoreLocator{
 	position: absolute;
 	left: 400px;
 	top: 410px;
-	white-space: pre;
-		font-family: Monda;
-	font-style: normal;
-	font-weight: normal;
 	font-size: 24px;
 	line-height: 39px;
 	text-align: center;
-	color: #000000;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 section#model{
 	position: relative;
 	height: 600px;
 	
 }
-#titlimodle{
+#HeaderModel{
 	position: absolute;
-width: 226px;
-height: 88px;
-left: 470px;
-top: 0px;
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 72px;
-line-height: 88px;
-color: #000000;
-}
-#foto1{
+	width: 226px;
+	height: 88px;
+	left: 470px;
+	top: 0px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 72px;
+	line-height: 88px;
+	color: #000000;
+	}
+#InstaModelPageContactsOne{
 	position: absolute;
-width: 266px;
-height: 315px;
-left: 10px;
-top: 200px;
+	width: 266px;
+	height: 315px;
+	left: 10px;
+	top: 200px;
 }
-#foto2{
+#InstaModelPageContactsTwo{
 	position: absolute;
-width: 266px;
-height: 315px;
-left: 296px;
-top: 200px;
+	width: 266px;
+	height: 315px;
+	left: 296px;
+	top: 200px;
 }
-#foto3{
-position: absolute;
-width: 263px;
-height: 315px;
-left: 582px;
-top: 200px;
-}
-#foto4{
+#InstaModelPageContactsThree{
 	position: absolute;
-width: 266px;
-height: 315px;
-left: 868px;
-top: 200px;
+	width: 263px;
+	height: 315px;
+	left: 582px;
+	top: 200px;
+	}
+#InstaModelPageContactsFour{
+	position: absolute;
+	width: 266px;
+	height: 315px;
+	left: 868px;
+	top: 200px;
 }
+
 section{
 	display: grid;
 

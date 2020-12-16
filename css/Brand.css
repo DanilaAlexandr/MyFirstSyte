@@ -5,7 +5,7 @@ body{
 }
 header{
 	position: relative;
-    height: 100px;
+    height: 150px;
     width: 1152px;
 	margin: 0 auto;
     display: flex;
@@ -22,7 +22,7 @@ header nav ul{
 	display: flex;
     grid-column-gap: 28%;
     left: 950px;
-    top: 40%;
+    top: 25%;
     width: 13%;
 }
 header nav ul li{
@@ -39,52 +39,55 @@ header nav ul li a{
 	top: 30px;
 	left: 60px;
 }
-
-
-section#ImgBrandShoes img{
-	position: relative;
-	width: 1052px;
-	height: 500px;
+header hr{
+	position: absolute;
+	width: 1152px;
+	height: 3px;
+	border:black;
+	background: black;
+	top: 100px;
 }
-section#ImgBrandShoes hr{
+section img{
+	position: relative
+	height:600px;
+	margin-left: 20px;
+}
+section hr{
 	position: absolute;
 	width: 1152px;
 	height: 3px;
 	border:black;
 	background: black;
 }
-section#ImgBrandShoes button{
+section button{
 	position: absolute;
-	width: 673px;
-	height: 83px;
-	white-space: pre;
-	font-family: Montaga;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 67px;
-	line-height: 83px;
-	letter-spacing: 0.005em;
-	color: #FFFFFF;
+	width: 173px;
+	height: 64px;
+	color: #fffbf7;
+    font-size: 24px;
+    line-height: 29px;
+    border: 2px solid rgb(238 223 208 / 88%);
+    box-sizing: border-box;
+    box-shadow: 2px 2px 4px #c1b4a8;
+    background: none;
+	outline: none;
+	border-bottom-right-radius: 18%;
+	border-top-left-radius: 18%;
+	left: 271px;
+	top: 588px;
 }
+#BrandShoesNomberOne hr{
+	left: 40px;
+	top: 735px;
 
-
-
-
-
-
+}
 section#BrandShoesNomberOne{
 	position: relative;
-	left: 0px;
 	width: auto;
-	right: 0px;
-	background: url(img/NikeUnder.png) no-repeat;
+	background: url(../img/NikeUnder.png) no-repeat;
 	background-size: 100%;
 }
 
-#BrandShoesNomberOne hr{
-	left: 0px;
-	top: 50px;
-}
 .NameBrand{
 	position: absolute;
 	width: 673px;
@@ -95,35 +98,24 @@ section#BrandShoesNomberOne{
 	font-family: Montaga;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 67px;
+	font-size: 62px;
 	line-height: 83px;
 	letter-spacing: 0.005em;
 	color: #FFFFFF;
 }
-#sign-up-button{
-	left: 271px;
-	top: 588px;
-}
 #BrandShoesNomberTwo hr{
-	left: 0px;
-	top: 80px;
+	left: 40px;
+	top: 735px;
 }
 section#BrandShoesNomberTwo{
 	position: relative;
-	left: 0px;
 	width: auto;
-	right: 0px;
-	background: url(img/PumaUnder.png) no-repeat;
+	background: url(../img/PumaUnder.png) no-repeat;
 	background-size: 100%;
 }
-#sign-up-button1{
-	left: 271px;
-	top: 588px;
-}
 #BrandShoesNomberFree hr{
-	left: 0px;
-	top: -80px;
-
+	left: 40px;
+	top: 735px;
 }
 section#BrandShoesNomberFree .ImgBrandShoes{
 	position: relative;
@@ -131,17 +123,16 @@ section#BrandShoesNomberFree .ImgBrandShoes{
 }
 section#BrandShoesNomberFree{
 	position: relative;
-	left: 0px;
 	width: auto;
-	right: 0px;
-	background: url(img/AdidasUnder.png) no-repeat;
+	background: url(../img/AdidasUnder.png) no-repeat;
 	background-size: 100%;
 }
-#sign-up-button2{
-left: 271px;
-top: 588px;
+section#BrandShoesNomberFree hr{
+position: absolute;
+left: 50px;
 }
 section{
+
 	display: grid;
 	width: 1152px;
 	height: 800px;
