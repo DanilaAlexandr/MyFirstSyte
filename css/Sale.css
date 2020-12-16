@@ -1,0 +1,405 @@
+body{
+ 	font-family: Montserrat;
+ 	color: #383232;
+ 	list-style: none;
+}
+header{
+	position: relative;
+    height: 150px;
+    width: 1152px;
+	margin: 0 auto;
+    display: flex;
+    grid-column-gap: 10%;
+}
+header nav ul{
+    display: flex;
+  	grid-column-gap: 10%;
+    width: 70%;
+	list-style:none;
+}
+#BadgesInHeader{
+	position: absolute;
+	display: flex;
+    grid-column-gap: 28%;
+    left: 950px;
+    top: 30%;
+    width: 13%;
+}
+header nav ul li{
+	position:relative;
+	top:20px;
+    font-size: 20px;
+}
+header nav ul li a{
+	color: #383232;
+	text-decoration: none;
+}
+#logo{
+	position: relative;
+	top: 30px;
+	left: 60px;
+}
+section{
+	display: grid;
+	width: 1152px;
+	height: 800px;
+	margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section#Menu-Left{
+	font-family: Monda;
+	position: relative;
+	width: 245px;
+	margin: 0;
+	height: 1100px;
+	color: #161515cf;
+}
+section#Menu-Left a{
+	list-style: none;
+	text-decoration: none;
+}
+section#Menu-Left h3{
+	font-size: 24px;
+}
+section#Menu-Left h4{
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 0.03em;
+	margin: 10px;
+	color: #060505eb;
+}
+section.CloroCircle span{
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 0.03em;
+	margin: 10px;
+	color: #060505eb;
+}
+section#Menu-Left hr{
+	position: absolute;
+	width: 200px;
+	left: 5px;
+}
+
+div.CloroCircle{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+}
+
+
+#circleblack{
+	width: 25px;
+	height: 25px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	background: black;
+}
+#circlered {
+	width: 25px;
+	height: 25px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	background: red;
+    }
+#circlewhite {
+	width: 25px;
+	height: 25px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	background: white;
+	border:1px solid black;
+    }
+#circlegreen {
+	width: 25px;
+	height: 25px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	background: green;
+    }
+#circleblue {
+	width: 25px;
+	height: 25px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	background: blue;
+    }
+#circleorange {
+	width: 25px;
+	height: 25px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	background: orange;
+    }
+#circleyellow {
+	width: 25px;
+	height: 25px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	background: yellow;
+    }
+#circlepink {
+	width: 25px;
+	height: 25px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	background: pink;
+    }
+#circlegrey {
+	width: 25px;
+	height: 25px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	background: grey;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section#ImgShop{
+	position: relative;
+	left: 245px;
+	top: 0px;
+	margin: auto 0px;
+	width: 950px;
+	height: 1300px;
+}
+section button{
+	position: absolute;
+	background: rgba(203, 203, 203, 0.33);
+	width: 79px;
+	height: 43px;
+	border: 1px solid #000000;
+	box-sizing: border-box;
+	border-radius: 100px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	letter-spacing: 0.01em;
+	color: #000000;
+}
+#button1{
+	position: absolute;
+	left: 245px;
+	top: 312px;
+}
+#button2{
+	position: absolute;
+	left: 580px;
+	top: 312px;
+}
+#button3{
+	position: absolute;
+	left: 915px;
+	top: 312px;
+}
+#button4{
+	position: absolute;
+	left: 245px;
+	top: 690px;
+}
+#button5{
+	position: absolute;
+	left: 580px;
+	top: 690px;
+}
+#button6{
+	position: absolute;
+	left: 915px;
+	top: 690px;
+}
+#button7{
+	position: absolute;
+	left: 245px;
+	top: 1065px;
+}
+#button8{
+	position: absolute;
+	left: 580px;
+	top: 1065px;
+}
+#button9{
+	position: absolute;
+	left: 915px;
+	top: 1065px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#FooterPartOne{
+	grid-template-columns:repeat(3, 1fr);
+	display: grid;
+}
+#FooterPartOne h2{
+	padding-left: 80px;
+	padding-top: 10px;
+}
+div#FooterPartOne ul {
+	list-style: none;
+	line-height: 2em;
+}
+footer  a{
+	text-decoration:none; 
+	color: black;
+}
+footer div#FooterPartOneColumThree ul{
+	display: flex;
+	grid-column-gap:10%;	
+}
+footer div.TwoColomTwo{
+	display: grid;
+	grid-template-columns: 125px auto;
+}
+footer{
+	position: relative;
+	display: grid;
+	width: 1152px;
+	height: 325px;
+	background: #F0F0F0;
+	margin: 0 auto;
+}
+#ContactsAdress{
+	position: absolute;
+	color: white;
+	right: 40px;
+	top: 230px;
+	letter-spacing: 2px;
+	line-height: 2em;
+}
+.FooterPartTwo{
+	position: relative;
+    height: 100px;
+    width: 1152px;
+	margin: 0 auto;
+	top: 20px;
+    display: flex;
+    grid-column-gap: 30%;
+    background: black;
+}
+footer nav ul{
+	position: absolute;
+    display: flex;
+  	grid-column-gap: 30%;
+    width: 15%;
+	list-style:none;
+	left: 260px;
+}
+footer nav ul li{
+	position:relative;
+	top:24px;
+    font-size: 20px;
+    left: 0px;
+}
+footer nav ul li a{
+	color: white;
+	text-decoration: none;
+}
+#LogoFooter{
+	position: absolute;
+	top: 15px;
+	left: 50px;
+}
+#ContactsAdress span {
+	position: absolute;
+	color: white;
+	right: 60px;
+	top: 25px;
+	letter-spacing: 2px;
+	line-height: 2em;
+	list-style: none;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
